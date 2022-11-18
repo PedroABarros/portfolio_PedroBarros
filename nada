@@ -1,0 +1,103 @@
+body {
+        background-image: url('PPP.png');
+    }
+
+
+.port {
+        margin: 0;
+        position: absolute;
+        top: 4%;
+        left: 7%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-family: Monaco;
+
+    }
+
+.center2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+.btnInicio{
+        text-decoration: none;
+        border-radius: 3px;
+        width: 170px;
+        text-align: center;
+        padding: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+        background-color: #cd1444;
+        color: #fff;
+
+    }
+
+    .btnInicial:hover{
+        box-shadow: 2px 2px 2px #84021e;
+    }
+
+.btnSobreMim{
+        text-decoration: none;
+        border-radius: 3px;
+        width: 170px;
+        text-align: center;
+        padding: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+        background-color: #cd1444;
+        color: #fff;
+
+    }
+
+    .btnSobreMim:hover{
+        box-shadow: 2px 2px 2px #84021e;
+    }
+
+.fonteLetra{
+    font-family: Monaco;
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+    color: white;
+  }
+
+
+
+nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    padding: 4px;
+    padding-left: 4%;
+    padding-right: 55.3%;
+    background-color: palegreen;
+
+}
+
+.btnInsta{
+    position:absolute;
+    left: 18.3%;
+    top: 65%;
+    text-decoration: none;
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px 14px;
+    background-color: #ff8a00;
+    color: #fff;
+    font-size: 23px;
+    z-index: 0;
+    border: 2px solid lightgray;
+}
